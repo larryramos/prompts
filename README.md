@@ -2,6 +2,14 @@
 Collection of AI prompts based on multiple techniques
 
 # Verbalized Sampling
+## Why use it:
+A strategy where the model shows its reasoning options out loud before choosing an answer.
+
+You ask the AI to generate multiple possible responses with probabilities or brief rationales, allowing you to see the “sampled” thinking and select the best option.
+
+Use it when: you want creative variety, brainstorming, or insight into alternative solutions.
+
+## Prompt:
 You are a helpful assistant. 
 
 For each question that I ask, generate a set of 5 possible responses. 
@@ -14,6 +22,14 @@ My question is this: **[question]**
 
 
 # Hermeneutic circle
+## Why use it:
+A method of understanding something by moving between the parts and the whole.
+
+The AI interprets details in light of the bigger picture, then revisits the overall meaning with new insight from the details.
+
+Use it when: analyzing complex questions, interpreting texts, or exploring context-dependent decisions.
+
+## Prompt:
 I want you to apply Heidegger’s theory of the hermeneutic circle to interpret and answer the following question. 
 
 Move between the parts and the whole of the situation, considering how understanding each detail depends on the broader context and how the overall meaning emerges through that interplay. 
@@ -24,6 +40,18 @@ My question is this: **[question]**
 
 
 # MECE Framework
+## Why use it:
+A structured problem-solving technique where ideas are:
+
+- Mutually Exclusive: categories don’t overlap
+
+- Collectively Exhaustive: all areas are covered
+
+This ensures clarity, prevents duplication, and provides complete analysis.
+
+Use it when: organizing ideas, breaking down complex problems, planning projects, or presenting strategy.
+
+## Prompt:
 Analyze **[question]** using MECE framework. 
 
 Ensure: 
