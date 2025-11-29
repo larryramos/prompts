@@ -3,16 +3,19 @@ Collection of AI prompts based on multiple techniques
 
 # Verbalized Sampling
 You are a helpful assistant. For each question that I ask, generate a set of 5 possible responses. Each response should include the generated answer and its associated numeric probability. Show me all five responses. Please sample at random from the full distribution. 
+
 My question is this: **[question]**
 
 
 # Hermeneutic circle
 I want you to apply Heidegger’s theory of the hermeneutic circle to interpret and answer the following question. Move between the parts and the whole of the situation, considering how understanding each detail depends on the broader context and how the overall meaning emerges through that interplay. Make sure that your answer is practical and provides a straightforward response to the question. 
+
 My question is this: **[question]**
 
 
 # MECE Framework
 Analyze **[question]** using MECE framework. 
+
 Ensure: 1. Categories are mutually exclusive (no overlap) 
 2. Analysis is collectively exhaustive (complete coverage) 
 3. Structure is clear and actionable 
@@ -25,6 +28,7 @@ Imagine you are an expert in recruitment for {role}, understanding the current n
 3. A list of additional skills that could help me get an advantage in my career
 4. A list of recommended courses. Search LinkedIn Learning to find the highest rated courses for each of these skills. Give me the name of the course, the name of the instructor, the course rating and the URL
 5.Finish with your recommendation of what course I should do first.
+
 {role}: **[Add your current role or the role you want]**
 
 
@@ -34,7 +38,9 @@ Play the role of an expert careers advisor who knows the value of qualifications
 - Validate - Scan LinkedIn/Indeed for the skill the course teaches in my country (min. 100 postings). Crossreference this with growth projections for the role.
 - Investigate - Find any form of verification that backs up your thinking. I'd like relevant articles, expert opinion, and research.
 - Position - Explain the value of having this skill. Is it foundational and necessary, a nice-to-have, superfluous, or does it add value that helps me stand out? Let me know how I can use it to give me an advantage. I'd especially like to know if there's any indication of how much developing this skill might add to my salary over the next 3 years.
+- 
 {role}: **[Add your role here - describe it if you can]**
+
 {course url}: **[Add the URL of the course or a description of the course]**
 
 
@@ -44,6 +50,7 @@ I'm going to give you {lesson information} and you're going to develop an exerci
 Your job is to prepare me to perform exceptionally well at this skill in my role, turning it into an advantage for my career. 
 It would be ideal if you could also give me feedback on my performance as I develop this skill, telling me how to continue getting better. 
 We'll use this chat thread so you can continue to coach me as I work on the skill.
+
 {lesson information}: **[Add information about the lesson - preferably a transcript]**
 
 
@@ -51,6 +58,7 @@ We'll use this chat thread so you can continue to coach me as I work on the skil
 Imagine you are a memory champion with the skills to remember vast amounts of information that you can recall perfectly at a moment's notice. 
 You know how to use techniques like the Memory Palace, Mnemonic Images, Stories, Mnemonics & Acronyms, Chunking, Lanier Verbatim Memory System, and Direct Associations. 
 Please tell me how I can best remember this {information} so that I can accurately recall it whenever I need to.
+
 {information}: **[Add the information you want to remember - maybe a transcript of a lesson]**
 
 
@@ -73,7 +81,9 @@ If I give you a URL for the course, get as much information as you can about the
 If you need more information, please ask me questions. If you are asking questions, give me one question at a time and then stop and wait for my answer before asking me another question. 
 Your response must be specific to the learnings from the course: explain how they can help me be more effective and stand out in my team. Do not search for suggestions that are not explicitly in the course. 
 We are only focusing on the content of the course itself.
+
 {role}: **[Describe your role]**
+
 {course}: **[The URL of the course or detailed information about it]**
 
 
@@ -85,8 +95,11 @@ Tell me what I practically need to do at each stage of this journey to keep grow
 And give me checkpoints that help me place myself on the journey. 
 These checkpoints will clearly describe what my knowledge, ability and experience should be. 
 This should be written in a way that I can print out and keep in my drawer so that I can check where I am in my progression and see what I need to do to keep moving forward.
+
 {role}: **[Your role]**
+
 {skill}: **[The skill you want to learn and the level you want to achieve]**
+
 {skill level}: **[Your current skill level]**
 
 
@@ -97,7 +110,9 @@ Then give me advice on what I need to do to demonstrate and document my skills s
 Consider case studies, testimonials, blogs, LinkedIn articles, and other forms of suitable evidence. Explain how speculative concepts (if this was my client, this is what I'd do...), opinion pieces, and other approaches can help when there is no opportunity to put the skills into practice. 
 Then, ask me if I would like help developing a case study for my portfolio. If I say yes, ask me questions one at a time (ask one question and wait for my response before asking the next one) to get all the information you need to write a short and professional case study that explains the problem, describes the solution, shows evidence and gives results. 
 Present your response using different text sizes, weights, and ornamentation to help with clarity and structure.
+
 {skills}: **[The skill you want to prove]**
+
 {role}: **[Your role]**
 
 
@@ -108,6 +123,7 @@ Find out about my role, my ambitions, my current abilities, what I enjoy doing, 
 Then, give me your recommendation of the skills I should focus on to help my career. 
 Search on LinkedIn Learning to find examples of highly-rated courses that will help me develop these skills right away. 
 Give me the course name, instructor, rating, and a short description of the course contents.
+
 {role}: **[Your role]**
 
 
@@ -119,6 +135,7 @@ Omit anything superfluous and keep your summary as brief as possible. Please inc
 - A 50-word summary of the lesson
 - A bullet point list of the key points to remember
 - A list of stats or numbers that are mentioned in the lesson (if there are any)
+- 
 {transcript}: **[Add a transcript of the lesson here]**
 
 
