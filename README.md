@@ -36,7 +36,9 @@ Move between the parts and the whole of the situation, considering how understan
 
 Make sure that your answer is practical and provides a straightforward response to the question. 
 
-My question is this: **[question]**
+My question is this: 
+
+**[question]**
 
 
 # MECE Framework
@@ -64,6 +66,138 @@ Ensure:
 
 4. Include subcategories where relevant
 
+# Chain of Thought (CoT)
+## Why use it:
+Helps the model break down complex problems by reasoning step-by-step before giving the final answer.
+
+## Prompt:
+
+Explain your reasoning step-by-step before giving the final answer.
+**question**
+
+# Tree of Thought (ToT)
+## Why use it:
+Explores multiple reasoning paths, evaluates them, and selects the best solution.
+
+## Prompt:
+Generate 3 different solution paths, evaluate each one, and then select the most effective.
+**question**
+
+# Role Prompting
+## Why use it:
+Improves accuracy by having the model adopt a specific persona or expertise.
+
+## Prompt:
+Act as a **role name**. 
+
+Explain this: 
+
+**question**.
+
+# Few-Shot Prompting
+## Why use it:
+Shows the model examples so it can match style, structure, and formatting.
+
+## Prompt:
+Here are examples of **question**… 
+
+Now generate one more in the same style.
+
+# Zero-Shot Prompting
+## Why use it:
+Gives the model clear instructions without examples, useful for simple or unbiased tasks.
+
+## Prompt:
+Write a two-sentence summary of this article: 
+
+**article**
+
+# Prompt Chaining
+## Why use it:
+Improves quality by splitting large tasks into smaller, more accurate steps.
+
+## Prompt:
+Part 1: Extract the key themes from this document.
+
+**document here**
+
+Part 2: Convert these themes into a structured report.
+
+
+# Constraints Prompting
+## Why use it:
+Provides strict rules for tone, format, or length to shape output precisely.
+
+## Prompt:
+Write exactly 5 bullet points, each under 10 words about this:
+
+**question**
+
+# Reverse Prompting
+## Why use it:
+The model asks clarifying questions first, reducing ambiguity and improving accuracy.
+
+## Prompt:
+Before answering, ask me any questions needed to improve accuracy.
+
+**question**
+
+# Socratic Prompting
+## Why use it:
+Guides thinking through questions rather than direct answers, ideal for coaching or reasoning.
+
+## Prompt:
+Ask me questions that help me reach my own conclusion about this career decision.
+
+**question**
+
+# Self-Critique / Self-Refinement
+## Why use it:
+The model critiques its own response and provides an improved version.
+
+## Prompt:
+Generate a solution, then critique it, then provide a refined final answer.
+
+**question**
+
+# Debate Prompting
+## Why use it:
+Creates opposing arguments to reveal strengths and weaknesses before synthesizing a conclusion.
+
+## Prompt:
+Argue for and against about **question**, then give a balanced conclusion.
+
+# Analogical Prompting
+## Why use it:
+Explains complex ideas through analogies to make them easier to understand.
+
+## Prompt:
+Explain **question** using a real-world metaphor.
+
+# Style Transfer Prompting
+## Why use it:
+Rewrites text in a specific tone or style to match a desired voice.
+
+## Prompt:
+Rewrite this paragraph in the style of **someone**
+
+**paragraph**
+
+# Error-Mode Prompting
+## Why use it:
+Finds risks, inconsistencies, mistakes, or vulnerabilities in text or code.
+
+## Prompt:
+Review this code and list every potential security risk.
+
+**code**
+
+# Deliberate Practice Prompting
+## Why use it:
+Turns the AI into a skills coach that provides targeted exercises and feedback.
+
+## Prompt:
+Give me 5 progressively harder exercises about **subject** and check my answers.
 
 # Using AI Deep Research to find in-demand career skills
 Imagine you are an expert in recruitment for {role}, understanding the current needs of employers and changes in the job market. 
